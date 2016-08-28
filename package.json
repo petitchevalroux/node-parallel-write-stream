@@ -1,6 +1,6 @@
 {
   "name": "@petitchevalroux/node-parallel-write-stream",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node write stream allowing to launch write on parallel",
   "main": "src/stream.js",
   "scripts": {
