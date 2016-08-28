@@ -21,9 +21,8 @@ util.inherits(ConcurrentWritable, Writable);
 
 ConcurrentWritable.prototype.write = function(chunk) {
     if (false === ConcurrentWritable.super_.prototype.write.apply(
-        this,
-        [chunk]
-    )) {
+            this, [chunk]
+        )) {
         return false;
     }
     var queue = this._getQueue();
