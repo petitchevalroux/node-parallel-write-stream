@@ -1,20 +1,21 @@
 {
-  "name": "node-project",
+  "name": "@petitchevalroux/node-parallel-write-stream",
   "version": "1.0.0",
-  "description": "Empty node project",
+  "description": "Node write stream allowing to launch write on parallel",
+  "main": "src/stream.js",
   "scripts": {
     "test": "make tests"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://github.com/petitchevalroux/node-project.git"
+    "url": "git+ssh://github.com/petitchevalroux/node-parallel-write-stream.git"
   },
   "author": "Patrick Poulain",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/petitchevalroux/node-project/issues"
+    "url": "https://github.com/petitchevalroux/node-parallel-write-stream/issues"
   },
-  "homepage": "https://github.com/petitchevalroux/node-project#readme",
+  "homepage": "https://github.com/petitchevalroux/node-parallel-write-stream#readme",
   "devDependencies": {
     "eslint": "^3.3.1",
     "eslint-plugin-promise": "^2.0.1",
@@ -22,5 +23,8 @@
     "js-beautify": "^1.6.3",
     "mocha": "^3.0.2",
     "sinon": "^1.17.5"
+  },
+  "dependencies": {
+    "async": "^2.0.1"
   }
 }
